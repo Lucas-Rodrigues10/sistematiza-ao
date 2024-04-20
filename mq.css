@@ -1,0 +1,12 @@
+@media screen and (min-width: 468px) and (max-width: 768px) {
+    nav{
+        margin: 0px 2px;
+    }
+    nav a{
+        padding: 0px 2.2px;
+    }
+
+    main{
+        margin: 0px 2px;
+    }
+}

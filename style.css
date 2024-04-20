@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+       
+}
+.logo{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 0px 70px;
+    
+    
+}
+#logo{
+    object-fit: cover;
+    
+}
+     h2{
+        display: flex;
+        align-content:flex-start;
+        justify-content: center;
+        padding: 10px;
+        font-size: 2em;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        color: #61C1D0;
+    }
+   nav{
+    box-shadow:rgba(0, 0, 0, 0.301) 5px 3px 3px;
+   }
+    nav, a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: #cc2a38;
+        color: white;
+        margin: 0px 50px;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+       
+    }
+    nav a:hover{
+        font-weight: bolder;
+        transition: 0.2s ease-in-out;
+        transform: translate(5%, 5%);
+    }
+    a, .imagem{
+        display: flex;
+        width: 100%;
+        max-width: 100vw;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+    body, html{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 50px;
+        padding: 0px 0px 10px;
+        background-color: #cc2a38;
+        color: white;
+        min-width: 448px;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        flex: 1;
+        box-shadow:rgba(0, 0, 0, 0.39) 5px 5px 7px;
+        
+        
+    }
+
+    main p{
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.5em;
+        text-align: justify, center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        
+    }
+
+    .imagem img{
+        width: 100%;
+    }
+
+    footer{
+        padding: 10px;
+        font-size: 1.5em;
+        text-align: center;
+        background-color: white(255, 0, 0);
+        color: #61C1D0;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        
+        
+    }
